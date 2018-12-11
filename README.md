@@ -5,14 +5,21 @@
  
  
  ####load data#########
+ 
 load("phy_dat.RData")
 
 ####load package and function########
+
 library(grplasso)
+
 library(parallel)
+
 source("SEGN_sup1.R")
+
 source("SEGN_sup2.R")
+
 source("SEGN_sup3.R")
+
 
 
 
